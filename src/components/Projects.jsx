@@ -1,6 +1,11 @@
 import React, { useState } from "react";
-import Gt from "../assets/gt.jpeg";
+import { motion } from "framer-motion";
+
 import { FiGithub } from "react-icons/fi";
+import ImgOne from "../assets/logo.png";
+import ImgTwo from "../assets/logo.svg";
+import ImgThree from "../assets/calc.jpg";
+import ImgFour from "../assets/quiz.jpg";
 
 function Projects() {
   const [projectOne, setProjectOne] = useState(true);
@@ -26,11 +31,21 @@ function Projects() {
       <h1 className="text-[#424245] py-3 text-center text-6xl font-bold ">
         Projects.
       </h1>
-      <div className="container min-h-full max-w-[1024px] mx-auto grid lg:grid-cols-2 gap-8 p-4 py-4 ">
-        <div className="card flex justify-center items-center h-[280px] w-[100%] mx-auto shadow-md">
+      <div className="container min-h-full max-w-[1024px] mx-auto grid lg:grid-cols-2 gap-[3rem] sm:gap-8 p-4 py-4 ">
+        <div className="card flex justify-center items-center min-h-[300px] w-[100%] mx-auto shadow-md">
           <div className="w-[40%] h-full bg-[#424245] rounded-l-md">
             <div className="flex flex-col justify-between items-center h-full py-4 text-white">
-              <img src={Gt} alt="/" className="w-[50px] h-[50px]" />
+              <motion.div
+                whileHover={{
+                  scale: 1.2,
+                }}
+              >
+                <img
+                  src={ImgOne}
+                  alt="/"
+                  className="w-[60px] h-[60px] cursor-pointer"
+                />
+              </motion.div>
               <a
                 href="http://techclub-landing-page.vercel.app/"
                 target="_blank"
@@ -48,8 +63,13 @@ function Projects() {
                 <h1 className="text-2xl font-semibold">TODP Tech Bootcamp</h1>
                 <p className="text-sm mt-[-5px] font-light">Web Page</p>
                 {projectOne ? (
-                  <div>
-                    <h3 className="text-base mt-2 font-semibold">
+                  <motion.div
+                    initial={{ y: "-20vh", opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className="pb-4"
+                  >
+                    <h3 className="text-base mt-2 font-semibold ">
                       About the Project
                     </h3>
                     <p className="font-light text-sm ">
@@ -57,10 +77,15 @@ function Projects() {
                       page where users who are interested in the tech bootcamp
                       can go register.
                     </p>
-                  </div>
+                  </motion.div>
                 ) : (
                   <div>
-                    <div>
+                    <motion.div
+                      initial={{ y: "-20vh", opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.5 }}
+                      className="pb-4"
+                    >
                       <h3 className="text-base mt-2 font-semibold">
                         Technologies Used
                       </h3>
@@ -70,7 +95,7 @@ function Projects() {
                         make the page feel alive, Framer Motion and
                         AOS(Animation On Scroll) was also used.
                       </p>
-                    </div>
+                    </motion.div>
                   </div>
                 )}
               </div>
@@ -95,10 +120,16 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="card flex justify-center items-center h-[280px] w-[100%] mx-auto shadow-md">
+        <div className="card flex justify-center items-center min-h-[300px] w-[100%] mx-auto shadow-md">
           <div className="w-[40%] h-full bg-[#424245] rounded-l-md">
             <div className="flex flex-col justify-between items-center h-full py-4 text-white">
-              <img src={Gt} alt="/" className="w-[50px] h-[50px]" />
+              <motion.div
+                whileHover={{
+                  scale: 1.2,
+                }}
+              >
+                <img src={ImgTwo} alt="/" className="w-[100px] h-[40px] " />
+              </motion.div>
               <a
                 href="https://url-shortener-ten-hazel.vercel.app/"
                 target="_blank"
@@ -116,7 +147,12 @@ function Projects() {
                 <h1 className="text-2xl font-semibold">URL Shortener</h1>
                 <p className="text-sm mt-[-5px] font-light">Website</p>
                 {projectTwo ? (
-                  <div>
+                  <motion.div
+                    initial={{ y: "-20vh", opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className="pb-4"
+                  >
                     <h3 className="text-base mt-2 font-semibold">
                       About the Project
                     </h3>
@@ -125,10 +161,15 @@ function Projects() {
                       and copy the shortened link to their clipboard in a single
                       click.
                     </p>
-                  </div>
+                  </motion.div>
                 ) : (
                   <div>
-                    <div>
+                    <motion.div
+                      initial={{ y: "-20vh", opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.5 }}
+                      className="pb-4"
+                    >
                       <h3 className="text-base mt-2 font-semibold">
                         Technologies Used
                       </h3>
@@ -137,7 +178,7 @@ function Projects() {
                         TailwindCSS. I integrated the website with the shrtcode
                         API to create shortened URLs.
                       </p>
-                    </div>
+                    </motion.div>
                   </div>
                 )}
               </div>
@@ -162,10 +203,20 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="card flex justify-center items-center h-[280px] w-[100%] mx-auto shadow-md">
+        <div className="card flex justify-center items-center min-h-[300px] w-[100%] mx-auto shadow-md">
           <div className="w-[40%] h-full bg-[#424245] rounded-l-md">
             <div className="flex flex-col justify-between items-center h-full py-4 text-white">
-              <img src={Gt} alt="/" className="w-[50px] h-[50px]" />
+              <motion.div
+                whileHover={{
+                  scale: 1.2,
+                }}
+              >
+                <img
+                  src={ImgThree}
+                  alt="/"
+                  className="w-[140px] h-[140px] rounded-sm"
+                />
+              </motion.div>
               <a
                 href="https://calculator-ten-hazel.vercel.app/"
                 target="_blank"
@@ -183,7 +234,12 @@ function Projects() {
                 <h1 className="text-2xl font-semibold">Calculator</h1>
                 <p className="text-sm mt-[-5px] font-light">Web App</p>
                 {projectThree ? (
-                  <div>
+                  <motion.div
+                    initial={{ y: "-20vh", opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className="pb-4"
+                  >
                     <h3 className="text-base mt-2 font-semibold">
                       About the Project
                     </h3>
@@ -193,10 +249,15 @@ function Projects() {
                       multiplication, and division. User can also adjust the
                       color theme based on their preference.
                     </p>
-                  </div>
+                  </motion.div>
                 ) : (
                   <div>
-                    <div>
+                    <motion.div
+                      initial={{ y: "-20vh", opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.5 }}
+                      className="pb-4"
+                    >
                       <h3 className="text-base mt-2 font-semibold">
                         Technologies Used
                       </h3>
@@ -205,7 +266,7 @@ function Projects() {
                         useReducer hook and styled with CSS and SCSS for the
                         different themes.
                       </p>
-                    </div>
+                    </motion.div>
                   </div>
                 )}
               </div>
@@ -230,10 +291,20 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="card flex justify-center items-center h-[280px] w-[100%] mx-auto shadow-md">
+        <div className="card flex justify-center items-center min-h-[300px] w-[100%] mx-auto shadow-md">
           <div className="w-[40%] h-full bg-[#424245] rounded-l-md">
             <div className="flex flex-col justify-between items-center h-full py-4 text-white">
-              <img src={Gt} alt="/" className="w-[50px] h-[50px]" />
+              <motion.div
+                whileHover={{
+                  scale: 1.2,
+                }}
+              >
+                <img
+                  src={ImgFour}
+                  alt="/"
+                  className="w-[140px] h-[110px] rounded-sm"
+                />
+              </motion.div>
               <a
                 href="https://quizzical-app-theta.vercel.app/"
                 target="_blank "
@@ -251,7 +322,12 @@ function Projects() {
                 <h1 className="text-2xl font-semibold">Quzzical</h1>
                 <p className="text-sm mt-[-5px] font-light">Web App</p>
                 {projectFour ? (
-                  <div>
+                  <motion.div
+                    initial={{ y: "-20vh", opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                    className="pb-4"
+                  >
                     <h3 className="text-base mt-2 font-semibold">
                       About the Project
                     </h3>
@@ -259,10 +335,15 @@ function Projects() {
                       This is a Quiz app where user can test their knowledge in
                       sport.
                     </p>
-                  </div>
+                  </motion.div>
                 ) : (
                   <div>
-                    <div>
+                    <motion.div
+                      initial={{ y: "-20vh", opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.5 }}
+                      className="pb-4"
+                    >
                       <h3 className="text-base mt-2 font-semibold">
                         Technologies Used
                       </h3>
@@ -272,7 +353,7 @@ function Projects() {
                         database API to fetch the questions that will be
                         displayed to the user.
                       </p>
-                    </div>
+                    </motion.div>
                   </div>
                 )}
               </div>

@@ -11,7 +11,7 @@ function Footer() {
           rel="noreferrer"
         >
           <FaLinkedin
-            size={30}
+            size={20}
             className="text-white hover:text-[#0096d3] transition ease-in duration-200"
           />
         </a>
@@ -21,7 +21,7 @@ function Footer() {
           rel="noreferrer"
         >
           <FaTwitter
-            size={30}
+            size={20}
             className="text-white hover:text-[#0096d3] transition ease-in duration-200"
           />
         </a>
@@ -31,7 +31,7 @@ function Footer() {
           rel="noreferrer"
         >
           <FaInstagram
-            size={30}
+            size={20}
             className="text-white hover:text-[#0096d3] transition ease-in duration-200"
           />
         </a>

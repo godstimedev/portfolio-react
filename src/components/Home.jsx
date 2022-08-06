@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import Gt from "../assets/gtsmile.jpeg";
+import Gt from "../assets/new.jpeg";
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
           <img
             src={Gt}
             alt="/"
-            className="w-[200px] h-[250px] mb-6 rounded-lg "
+            className="w-[250px] h-[250px] mb-6 rounded-lg "
           />
           <p className="text-md leading-5">Hi there!</p>
           <h1 className="text-5xl  text-[#0096d3] font-bold">
@@ -19,7 +19,11 @@ function Home() {
           <p className="text-lg">
             A front-end developer proficient in using JavaScript and ReactJs.
           </p>
-          <a href="https://docs.google.com/document/d/187-1QPQDIYc-RLA0GCffFLRSraSdY_odLp8fNcOhQUU/edit?usp=sharing">
+          <a
+            href="https://docs.google.com/document/d/187-1QPQDIYc-RLA0GCffFLRSraSdY_odLp8fNcOhQUU/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="mt-3 px-4 py-2 border border-white rounded-md hover:bg-white hover:text-[#333] transition ease-in duration-200">
               Resume
             </button>
