@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import Gt from "../assets/new.jpeg";
+import Gt from "../assets/edit.jpeg";
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
           <img
             src={Gt}
             alt="/"
-            className="w-[250px] h-[250px] mb-6 rounded-lg "
+            className="w-[230px] h-[250px] mb-6 rounded-lg "
           />
           <p className="text-md leading-5">Hi there!</p>
           <h1 className="text-5xl  text-[#0096d3] font-bold">
