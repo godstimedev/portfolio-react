@@ -17,6 +17,15 @@ const data = [
 		projectLink: 'https://github.com/godstimedev/techclub-landing-page',
 	},
 	{
+		// image: quizImg,
+		demoLink: 'https://space-website-teal.vercel.app/',
+		name: 'Space tourism multi-page website',
+		type: 'Website',
+		about: 'This is a space website, it is a challenge from Frontend mentor .',
+		techDets: 'This website was built using ReactJs and styled with pure CSS.',
+		projectLink: 'https://github.com/godstimedev/space-website',
+	},
+	{
 		image: shortlyImg,
 		demoLink: 'https://url-shortener-ten-hazel.vercel.app/',
 		name: 'URL Shortener',
@@ -48,36 +57,27 @@ const data = [
 			'This web app was built using ReactJs and styled with pure CSS. I integrated the web app with open trivia database API to fetch the questions that will be displayed to the user.',
 		projectLink: 'https://github.com/godstimedev/quizzical-app',
 	},
-	{
-		image: quizImg,
-		demoLink: 'https://space-website-teal.vercel.app/',
-		name: 'Space tourism multi-page website',
-		type: 'Website',
-		about: 'This is a Quiz app where user can test their knowledge in sport.',
-		techDets:
-			'This web app was built using ReactJs and styled with pure CSS. I integrated the web app with open trivia database API to fetch the questions that will be displayed to the user.',
-		projectLink: 'https://github.com/godstimedev/space-website',
-	},
-	{
-		image: quizImg,
-		demoLink: 'https://tesla-clone-seven-blush.vercel.app/',
-		name: 'Tesla Clone',
-		type: 'Website',
-		about: 'This is a Quiz app where user can test their knowledge in sport.',
-		techDets:
-			'This web app was built using ReactJs and styled with pure CSS. I integrated the web app with open trivia database API to fetch the questions that will be displayed to the user.',
-		projectLink: 'https://github.com/godstimedev/tesla-clone',
-	},
-	{
-		image: ecommerce,
-		demoLink: 'https://product-details-page-redux.vercel.app/',
-		name: 'E-commerce product page',
-		type: 'Web Page',
-		about: 'This is a Quiz app where user can test their knowledge in sport.',
-		techDets:
-			'This web app was built using ReactJs and styled with pure CSS. I integrated the web app with open trivia database API to fetch the questions that will be displayed to the user.',
-		projectLink: 'https://github.com/godstimedev/product-details-page-redux',
-	},
+
+	// {
+	// 	// image: quizImg,
+	// 	demoLink: 'https://tesla-clone-seven-blush.vercel.app/',
+	// 	name: 'Tesla Clone',
+	// 	type: 'Website',
+	// 	about: 'This is a Quiz app where user can test their knowledge in sport.',
+	// 	techDets:
+	// 		'This web app was built using ReactJs and styled with pure CSS. I integrated the web app with open trivia database API to fetch the questions that will be displayed to the user.',
+	// 	projectLink: 'https://github.com/godstimedev/tesla-clone',
+	// },
+	// {
+	// 	image: ecommerce,
+	// 	demoLink: 'https://product-details-page-redux.vercel.app/',
+	// 	name: 'E-commerce product page',
+	// 	type: 'Web Page',
+	// 	about: 'This is a Quiz app where user can test their knowledge in sport.',
+	// 	techDets:
+	// 		'This web app was built using ReactJs and styled with pure CSS. I integrated the web app with open trivia database API to fetch the questions that will be displayed to the user.',
+	// 	projectLink: 'https://github.com/godstimedev/product-details-page-redux',
+	// },
 ];
 
 export default data;

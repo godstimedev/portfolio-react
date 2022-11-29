@@ -18,7 +18,7 @@ function Project({ image, demoLink, name, type, about, techDets, projectLink }) 
 							scale: 1.2,
 						}}
 					>
-						<img src={image} alt="/" className="w-[60px] h-[60px] cursor-pointer" />
+						{image && <img src={image} alt="/" className="w-[60px] h-[60px] cursor-pointer" />}
 					</motion.div>
 
 					<a href={demoLink} target="_blank" rel="noreferrer">

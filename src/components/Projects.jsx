@@ -12,7 +12,7 @@ function Projects() {
 				{data.map((item) => (
 					<Project
 						key={item.name}
-						image={item.image}
+						image={item.image ? item.image : null}
 						demoLink={item.demoLink}
 						name={item.name}
 						type={item.type}
