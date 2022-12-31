@@ -16,7 +16,6 @@ const data = [
 			'This web app was built using ReactJs hooks mainly the useReducer hook and styled with CSS and SCSS for the different themes.',
 		projectLink: 'https://github.com/godstimedev/calculator',
 	},
-
 	{
 		// image: quizImg,
 		demoLink: 'https://space-website-teal.vercel.app/',
