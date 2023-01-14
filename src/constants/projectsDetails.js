@@ -3,8 +3,23 @@ import shortlyImg from '../assets/logo.svg';
 import calcImg from '../assets/calc.jpg';
 import quizImg from '../assets/quiz.jpg';
 import ecommerce from '../assets/ecommerce.png';
+import space from '../assets/space.png';
+import tesla from '../assets/tesla.png';
+import eshop from '../assets/eshop.png';
+import defi from '../assets/defi.png';
 
 const data = [
+	{
+		image: eshop,
+		demoLink: 'https://eshop-vert-eta.vercel.app/',
+		name: 'Ceramic e-commerce website',
+		type: 'Website',
+		about:
+			'This is an e-commerce website with typical e-commerce website pages like the products page, the products details page, and the cart page. It also has typical e-commerce website features like the ability to add and remove items from the cart as well as change the quantity of the items in the cart.',
+		techDets:
+			'This website was built using ReactJs, Typescript and Redux toolkit to manage the cart state. Tailwind Css was used in styling the website.',
+		projectLink: 'https://github.com/godstimedev/eshop',
+	},
 	{
 		image: calcImg,
 		demoLink: 'https://calculator-ten-hazel.vercel.app/',
@@ -17,20 +32,34 @@ const data = [
 		projectLink: 'https://github.com/godstimedev/calculator',
 	},
 	{
-		// image: quizImg,
+		image: space,
 		demoLink: 'https://space-website-teal.vercel.app/',
 		name: 'Space tourism multi-page website',
 		type: 'Website',
-		about: 'This is a space website, it is a challenge from Frontend mentor .',
-		techDets: 'This website was built using ReactJs and styled with pure CSS.',
+		about:
+			'This website, which is about space, contains a lot of pages and features including a carousel slider.',
+		techDets:
+			'This website was built using ReactJs, react router-dom and react-slick library. And it was styled with pure CSS.',
 		projectLink: 'https://github.com/godstimedev/space-website',
+	},
+	{
+		image: defi,
+		demoLink: 'https://defi-site-axios.vercel.app/',
+		name: 'Defi Website',
+		type: 'Website',
+		about:
+			'This is a cryptocurrency website that provides current values for well-known cryptocurrencies as well as information on their trends. The prices were obtained via the CoinGecko API.',
+		techDets:
+			'This website was built using ReactJs and axios was used to fetch the crypto data from the CoinGecko API. It was styled using pure CSS.',
+		projectLink: 'https://github.com/godstimedev/defi-site-axios',
 	},
 	{
 		image: ecommerce,
 		demoLink: 'https://product-details-page-redux.vercel.app/',
 		name: 'E-commerce product page',
 		type: 'Web Page',
-		about: 'This is an ecommerce product page, it is a challenge from Frontend mentor.',
+		about:
+			'This is an ecommerce product page, it contains the typical e-commerce product page features like increment and decrement of product quantity and ability to add product to cart. And it also contains an image slider to showcase the product.',
 		techDets:
 			'This web page was built using ReactJs & Redux and styled with Styled components. Redux was used to manage the cart state and modal state, it was a challenging project and fun too.',
 		projectLink: 'https://github.com/godstimedev/product-details-page-redux',
@@ -59,7 +88,7 @@ const data = [
 		projectLink: 'https://github.com/godstimedev/techclub-landing-page',
 	},
 	{
-		// image: quizImg,
+		image: tesla,
 		demoLink: 'https://tesla-clone-seven-blush.vercel.app/',
 		name: 'Tesla Clone',
 		type: 'Website',
