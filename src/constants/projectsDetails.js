@@ -7,8 +7,31 @@ import space from '../assets/space.png';
 import tesla from '../assets/tesla.png';
 import eshop from '../assets/eshop.png';
 import defi from '../assets/defi.png';
+import portal from '../assets/portal.png';
+import pp from '../assets/pp.png';
 
 const data = [
+	{
+		image: pp,
+		demoLink: 'https://www.patternandproduce.com/',
+		name: 'Pattern & Produce Studios',
+		type: 'Website',
+		about:
+			'This is a Next.js website tailored for a garment production and manufacturing hub. This platform empowers users with an array of features, enabling them to book appointments, register for training programs, and explore a comprehensive range of services. It also contains an Admin Panel which is managed by an Admin to update website content.',
+		techDets:
+			'This website was built using Next.js and styled with styled-components. React context was used to manage auth state for the Admin Panel.',
+		projectLink: '',
+	},
+	{
+		image: portal,
+		demoLink: 'https://ydev-admin-v2-git-develop-hbr-dev.vercel.app/',
+		name: 'Admin Portal',
+		type: 'Web App',
+		about:
+			'This is an efficient and comprehensive admin portal designed to streamline data tracking and management for an organizations. This tool enables seamless monitoring and control of vital data within an organization.',
+		techDets: 'This web app was built using ReactJs and styled with styled-components.',
+		projectLink: '',
+	},
 	{
 		image: eshop,
 		demoLink: 'https://eshop-vert-eta.vercel.app/',

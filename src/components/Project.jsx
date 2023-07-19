@@ -66,7 +66,7 @@ function Project({ image, demoLink, name, type, about, techDets, projectLink }) 
 						>
 							{aboutProj ? 'Tech Details' : 'About'}
 						</button>
-						<a href={projectLink} target="_blank" rel="noreferrer">
+						<a href={projectLink} target={projectLink ? '_blank' : '_self'} rel="noreferrer">
 							<FiGithub
 								size={25}
 								className="text-[#424245] hover:text-[#33697e] transition ease-in duration-200 "
