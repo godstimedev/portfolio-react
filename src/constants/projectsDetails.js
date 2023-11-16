@@ -24,13 +24,13 @@ const data = [
 	},
 	{
 		image: portal,
-		demoLink: 'https://ydev-admin-v2-git-develop-hbr-dev.vercel.app/',
+		demoLink: 'https://admin-dashboard-sage-gamma.vercel.app/',
 		name: 'Admin Portal',
 		type: 'Web App',
 		about:
-			'This is an efficient and comprehensive admin portal designed to streamline data tracking and management for an organizations. This tool enables seamless monitoring and control of vital data within an organization.',
+			'This is an efficient and comprehensive admin portal designed to streamline data tracking and management for an organization. This tool enables seamless monitoring and control of vital data within an organization.',
 		techDets: 'This web app was built using ReactJs and styled with styled-components.',
-		projectLink: '',
+		projectLink: 'https://github.com/godstimedev/admin-dashboard',
 	},
 	{
 		image: eshop,
