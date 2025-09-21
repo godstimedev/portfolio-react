@@ -1,16 +1,15 @@
-import React from 'react';
 import Footer from './Footer';
-import Gt from '../assets/prof.jpeg';
+import Gt from '../assets/gtNew.jpg';
 
 function Home() {
 	return (
 		<section className="h-[calc(100vh-5rem)] w-full  bg-[#2a2a2e] ">
 			<div className="text-white pt-[2rem] h-[90%] bg-gradient-to-b from-[#2a2a2e] to-[#313133] pl-8 sm:pl-2">
 				<div className="container max-w-[960px] mx-auto">
-					<img src={Gt} alt="/" className="w-[230px] h-[250px] mb-6 rounded-lg " />
+					<img src={Gt} alt="/" className="w-[230px] h-[250px] mb-6 rounded-lg object-cover" />
 					<p className="text-md leading-5">Hi there!</p>
 					<h1 className="text-5xl  text-[#0096d3] font-bold">I'm Godstime Agholor O.</h1>
-					<p className="text-lg">A front-end developer proficient in using JavaScript and ReactJs.</p>
+					<p className="text-lg">A Frontend/Software engineer proficient in TypeScript and ReactJs.</p>
 					<a
 						href="https://docs.google.com/document/d/1hXD9pAGGctS-FhXGE09wQWFDcTaakogMK2UY1B70EK0/edit?usp=sharing"
 						target="_blank"

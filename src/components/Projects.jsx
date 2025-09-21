@@ -3,8 +3,6 @@ import Project from './Project';
 import data from '../constants/projectsDetails';
 
 function Projects() {
-	console.log(data);
-
 	return (
 		<section className="min-h-[calc(100vh-5rem)] bg-gradient-to-b from-[#2a2a2e] to-[#313133] py-6">
 			<h1 className="text-[#424245] py-3 text-center text-6xl font-bold ">Projects.</h1>

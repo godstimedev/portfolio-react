@@ -9,8 +9,49 @@ import eshop from '../assets/eshop.png';
 import defi from '../assets/defi.png';
 import portal from '../assets/portal.png';
 import pp from '../assets/pp.png';
+import boonfu from '../assets/boonfu.png';
+import boadman from '../assets/boadman.png';
+import heroImg from '../assets/heroImg.png';
 
 const data = [
+	{
+		image: heroImg,
+		demoLink: 'https://www.aangoo.com/',
+		name: 'Aangoo',
+		type: 'Web App',
+		about:
+			'I led the frontend development of Aangoo, an AI-powered learning management system (LMS) and financial education platform. The platform featured personalized course recommendations, interactive financial tools, and a seamless user experience across desktop and mobile.',
+
+		techDets:
+			'Built with React.js, and styled using TailwindCSS. I implemented Progressive Web App (PWA) features for native app like access, integrated AI-driven content suggestions, and added financial calculators (budgeting, investment, expense tracking). Collaborated with backend engineers to deliver real-time data features, optimized SEO and performance (reducing load times by 50%), and set up analytics with Google Analytics and Mixpanel for user behavior insights.',
+
+		projectLink: '',
+	},
+	{
+		image: boadman,
+		demoLink: 'https://boadman.vercel.app/dashboard',
+		name: 'Boadman',
+		type: 'Web App',
+		about:
+			'I worked as the primary frontend engineer on Boadman, a UK-based gaming platform project. My role focused on building a responsive landing page and an interactive gaming interface, including complex UI components such as tournament brackets, while ensuring scalability and a seamless user experience.',
+
+		techDets:
+			'Developed with React.js and styled using TailwindCSS. I built a reusable component library with shared functional logic to support multiple micro-frontends, reducing development time by 40%. Implemented responsive layouts, optimized performance for smoother gameplay interactions, and collaborated via Git-based workflows for continuous integration and efficient cross-team delivery.',
+
+		projectLink: '',
+	},
+	{
+		image: boonfu,
+		demoLink: 'https://boonfu.site/',
+		name: 'Boonfu',
+		type: 'Website',
+		about:
+			'I led the frontend development of Boonfu.ng, a large-scale online marketplace built to connect buyers, sellers, and local businesses across Nigeria. The platform supports diverse product categories such as vehicles, fashion, electronics, and everyday essentials, with a focus on scalability, performance, and user-friendly design.',
+
+		techDets:
+			'Developed using React.js and React Query for state management, and styled with TailwindCSS. I built reusable, scalable UI components, implemented responsive layouts, and optimized performance to handle high traffic. Collaborated closely with designers and backend engineers to deliver complex marketplace features and ensure a seamless shopping experience.',
+		projectLink: '',
+	},
 	{
 		image: pp,
 		demoLink: 'https://www.patternandproduce.com/',

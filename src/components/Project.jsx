@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import { FiGithub } from 'react-icons/fi';
 import { motion } from 'framer-motion';
